@@ -1,4 +1,4 @@
-# GHini Kit Dev
+# @ghini/kit-dev
 
 **高效泛功能库：用一行代码高效实现 H2 兼容 H1 的服务器，性能超越 Express，适用于微服务应用。**
 
