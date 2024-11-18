@@ -1,0 +1,13 @@
+{
+  "name": "@ghini/kit-dev",
+  "version": "1.2.2",
+  "description": "js的实用工具函数库,开发完整版,有较详细的demo和注释",
+  "main": "main.js",
+  "type": "module",
+  "keywords": ["Ghini","kit-dev","http2","io"],
+  "author": "Ghini",
+  "license": "MIT",
+  "dependencies": {
+    "@ghini/zstd-win": "^2.4.5"
+  }
+}
