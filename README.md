@@ -37,21 +37,9 @@ npm install @ghini/kit-dev
 
 ```javascript
 import {h2s,xconsole} from "@ghini/kit-dev";
-h2s(3000, handleStream);
-function handleStream(stream, headers) {
-  const path=headers[":path"]
-  if(path==="/"){
-    stream.respond({
-      ":status": 200,
-      "content-type": "application/json",
-    });
-    stream.write(JSON.stringify(headers));
-    stream.end();
-  }
-  else if(path==="/hello") {
-    stream.end("Hello World!")
-  }
-}
+xconsole();
+const server = h2s();
+server.addr("/test");
 ```
 
 #### 文件读写工具
